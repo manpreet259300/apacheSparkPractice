@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="bigData" />
         <module name="Lab2-CS286" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bigData" target="1.8" />
       <module name="Lab2-CS286" target="1.8" />
     </bytecodeTargetLevel>
   </component>
